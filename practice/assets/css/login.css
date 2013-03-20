@@ -1,0 +1,311 @@
+/* ##########  */
+/*   $GLOBAL   */
+/* ##########  */
+html {
+  height: 100%;
+}
+
+body {
+  background: url('../img/bg1.jpg') center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (min-width: 979px) {
+  body {
+    padding-top: 80px;
+  }
+}
+
+.blue {
+  color: #447fc8;
+}
+
+.btn-black {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding: 5px 20px;
+  background-color: #222222;
+  background-image: none;
+  color: white;
+  text-shadow: none;
+}
+
+.btn-black:hover {
+  background: #333333;
+  color: white;
+}
+
+/* ########### */
+/* $NAVIGATION */
+/* ########### */
+
+.navbar .brand {
+  margin-top: 20px;
+  padding-bottom: 8px;
+  max-height: 40px;
+  width: auto;
+}
+
+.navbar .navbar-inner {
+  height: 80px;
+  background: white;
+  filter: none;
+}
+
+.navbar .nav {
+  margin-top: 20px;
+}
+
+.navbar .nav > li > a {
+  padding: 10px 10px 11px;
+  color: #333;
+  text-shadow: none;
+}
+
+.navbar .nav > li > a:hover {
+  color: #111;
+}
+/* line 67, ../sass/typica-login.scss */
+.navbar .nav > li.active > a {
+  background: none;
+  color: #111;
+}
+/* line 70, ../sass/typica-login.scss */
+.navbar .nav > li.active > a:hover {
+  background: none;
+  color: #111;
+}
+
+/* ######### */
+/* $Login */
+/* ######### */
+#login-wraper {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  margin-top: 25px;
+  margin-bottom: 70px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: white;
+}
+
+
+#login-form {
+  margin: 0 auto;
+  width: 350px;
+}
+
+#login-form .control-inline {
+  display: inline-block;
+}
+
+#login-form legend {
+  margin-bottom: 15px;
+  border-bottom: none;
+}
+
+#login-form input.input-huge {
+  width: 318px;
+}
+
+#login-form .control-group {
+  margin-bottom: 0;
+}
+
+#login-form .checkbox.inline {
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 98%;
+}
+
+#login-form .checkbox.inline input {
+  margin-right: 10px;
+}
+
+#login-form .body {
+  overflow-y: auto;
+  height: auto;
+}
+
+#login-form .btn {
+  padding: 10px 40px;
+  background-image: none;
+  box-shadow: none;
+}
+
+.login-info-wraper {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#login-info {
+  position: relative;
+  padding: 25px;
+}
+#login-info ul {
+  margin-right: 25px;
+}
+#login-info ul li {
+  margin-bottom: 25px;
+}
+
+/* ####### */
+/* $FOOTER */
+/* ####### */
+footer.white {
+  padding-top: 20px;
+  height: 50px;
+  background: white;
+  text-align: center;
+}
+
+/* ###### */
+/* $FONTS */
+/* ###### */
+/* navigation */
+.navbar {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* login form */
+/* line 17, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+.login-form legend {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #333333;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* line 24, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+.login-form label {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size: 20px;
+  color: #333333;
+  font-weight: 300;
+}
+
+/* register form */
+/* line 32, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+#login-form legend {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #333333;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+/* line 39, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+#login-form label {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #333333;
+  font-weight: 300;
+}
+
+/* login info */
+/* line 48, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+#login-info h1 {
+  font-size: 42px;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  line-height: 55px;
+  font-weight: 700;
+  text-align: right;
+  padding-bottom: 50px;
+  color: white;
+}
+/* line 57, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+#login-info ul {
+  text-align: right;
+  color: white;
+  font-size: 24px;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+}
+
+/* footer */
+/* line 66, D:/DropBox/bootstrap/typica-login/sass/includes/_fonts.scss */
+footer.navbar-fixed-bottom {
+  font-size: 16px;
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+/* ######## */
+/* $QUERIES */
+/* ######## */
+/* Portrait tablet*/
+@media (max-width: 980px) {
+  /* logo margin fix */
+  /* line 8, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+  .navbar {
+    height: auto;
+    margin-bottom: 0;
+  }
+  /* line 9, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+  .navbar .brand {
+    margin-top: 0;
+  }
+  /* line 14, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+  .navbar .navbar-inner {
+    height: auto;
+  }
+
+  /* line 18, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+  .navbar .nav > li > a:hover {
+    color: white;
+  }
+
+  /* line 21, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+  #login-wraper {
+    position: relative;
+    top: 0;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 495px) {
+  /* line 29, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+  #login-wraper {
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+  }
+
+  /* line 36, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+  #login-form {
+    width: auto;
+  }
+  /* line 38, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+  #login-form .control-inline {
+    display: block;
+  }
+  /* line 41, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+  #login-form input {
+    display: block;
+    margin: 0 auto;
+  }
+  /* line 44, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+  #login-form input.input-huge, #login-form input.input-medium {
+    width: auto;
+    display: block;
+  }
+  /* line 49, D:/DropBox/bootstrap/typica-login/sass/includes/_queries.scss */
+  #login-form .btn {
+    display: block;
+    margin: 0 auto;
+  }
+}
